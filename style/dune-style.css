@@ -222,3 +222,15 @@
 .bghover a{
   color: #ad3100;
 }
+
+.breadcrumbs {
+  font-size: 12px;
+}
+
+.breadcrumbs a{
+  color:bisque;
+}
+
+#bc-active {
+  color:rgb(174, 155, 131)
+}
