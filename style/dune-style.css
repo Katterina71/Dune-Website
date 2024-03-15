@@ -54,11 +54,9 @@
     border: none;
     outline: none;
     color: rgb(196, 183, 167);
-    /* padding-top: 14px 16px; */
     background-color: inherit;
     font-family: inherit;
     height: 50px;
-    /* margin: 0; */
   }
   
   .header a:hover, .dropdown:hover .dropbtn {
@@ -144,11 +142,17 @@
     width: 8vw;
     height:4vw;
     border-radius: 10px;
-    padding:2px;    
+    padding:2px; 
+    transition-property: width, height;  /* Scale Animation */
+    transition-duration: 1s;   /* Scale Animation */
 }
+
 
 .streaming img:hover{
     box-shadow: 0px 0px 5px 1px bisque;
+    width: 9vw; /* Scale Animation */
+    height:5vw; /* Scale Animation */
+
 }
 
 .registerform h2, .registerform p {
@@ -234,3 +238,20 @@
 #bc-active {
   color:rgb(174, 155, 131)
 }
+
+/* Animation on Dune Movie */
+
+.Loading img {
+  width: 250px;
+  height: 50px;
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  display: block;
+}
+
+.Loading img:hover{
+  height: 350px;
+
+}
+

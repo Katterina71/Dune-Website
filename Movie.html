@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
     <title>Dune Universe</title>
+
 </head>
 <body class="bg-black">
     <!-- NavBar -->
@@ -24,10 +25,10 @@
         <div class="nav1">
             <a href="./home.html">Home</a>
             <a href="./Author.html">About Author</a>
-            <a href="">About Universe</a>
+            <a href="./404.html">About Universe</a>
         </div>
         <div class="logo">
-            <a href="./home.html"> <img src="./img/logo/dune-logo.avif" alt="logo"> </a>
+          <a href="./home.html"> <img src="./img/logo/dune-logo.avif" alt="logo"> </a>
         </div>
         <div class="nav2">
             <!-- Add Dropdown Menu in Navbar -->
@@ -52,23 +53,58 @@
     </div>
     <!-- End NavBar -->
 
+    <!-- Breadcrumbs -->
+    <div class="container breadcrumbs mt-3 border-bottom border-top pt-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./home.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page" id="bc-active">Movies</li>
+            </ol>
+        </nav>
+    </div>
     
     <!-- Main Container -->
     <div>
-        <div class="container-fluid" id="main-404">
-            <img src="./img/404/dune-404.jpeg" class="img-fluid" alt="404 Error">
+    
+    <div>
+        <div class="container my-5">
+
+          <div class="container-fluid" id="main-404">
+            <img src="./img/Movies/dune-boarder.jpeg" class="img-fluid" alt="404 Error">
+          </div>
+
+            <h1 class="mt-4" id="HHeader">Dune Movies</h1>
+
+            <p id="pset">The Dune Universe has been adapted into movies, reflecting the saga's significant impact on science fiction and popular culture. Here's an overview of the major film adaptations:></p>
+
+            <h2 id="HHeader">Dune (1984)</h2>
+            <p id="pset">Directed by David Lynch, this was the first major film adaptation of Frank Herbert's novel. Despite its ambitious visuals and attempts to capture the complex world of Arrakis, the movie struggled to condense the novel's depth into a two-hour format. It received mixed reviews for its execution and deviations from the source material but has since gained a cult following for its unique artistic choices and elaborate sets.</p>
+            
+            <h2 id="HHeader">Dune (2000)</h2>
+            <p id="pset">This adaptation took the form of a miniseries, titled "Frank Herbert's Dune," aired on the Sci-Fi Channel. Directed by John Harrison, it was better received than the 1984 movie for being more faithful to the book and won two Emmy Awards for its visual effects and cinematography. The miniseries format allowed for a more detailed exploration of the Dune universe.</p>
+            
+            <h2 id="HHeader">Children of Dune (2003)</h2>
+            <p id="pset">ollowing the success of the 2000 miniseries, "Children of Dune" was released, also on the Sci-Fi Channel. Directed by Greg Yaitanes, it combines the storylines of "Dune Messiah" and "Children of Dune," Herbert's second and third books. The series starred James McAvoy in one of his early roles and was praised for its special effects and narrative depth.</p>
+            
+            <h2 id="HHeader">Dune (2021)</h2>
+            <p id="pset">Directed by Denis Villeneuve, this adaptation represents a modern retelling of Herbert's classic. With its stunning visuals, strong performances, and faithful adaptation of the book's themes and story, the 2021 version received critical acclaim and multiple awards. Villeneuve's "Dune" is planned to be a two-part film series, with the first part covering roughly the first half of the book, focusing on Paul Atreides' journey and the political intrigue surrounding the desert planet of Arrakis.</p>
+            
+
         </div>
-        <div class="bghover">
-            <h1>404 ERROR</h1>
-            <p>Whoops! You've wandered into uncharted dunes. The page you're looking for has vanished into the desert. Don't worry, this is just a small detour in your journey.</p>
-            <p>Head back to our <a href="/home.html">homepage</a> to find your way.</p>
-            <p>More pages for exploring:</p>
-            <a href="http://"></a>
-            <a href="http://"></a>
-            <a href="http://"></a>
-        </div>  
+
+        <!-- Loading Animation-->  
+
+    </div>
+    <div class="container Loading my-5">
+      <h2 class="mb-5" id="HHeader">Movie Posters</h2>
+      <div class="row">
+        <div class="col"><img src="./img/Movies/Dune-40th.avif" alt="Dune 40th"></div>
+        <div class="col"><img src="./img/Movies/dune-movie1-poster.avif" alt="Dune Part One"></div>
+        <div class="col"><img src="./img/Movies/movie-2-poster-2.jpeg" alt="Dune Part Two"></div>
+      </div>
+      <p class="mt-5" id="pset">Each adaptation of "Dune" brings its own interpretation to Herbert's intricate universe, showcasing the enduring appeal and complexity of the source material. The saga's themes of power, ecology, and destiny continue to resonate with audiences, making each movie a fascinating exploration of the Dune Universe.</p>        
+    </div>  
     <!-- Footer -->
-    <footer>
     <div class="footer">
             <div class="container text-center my-3">
                 <div class="row">
@@ -96,7 +132,9 @@
                 </div>
             </div>
     </div>
-   </footer>
+  </div>
+  <div>
+</div>
     <!-- End Footer -->
 </body>
 </html>

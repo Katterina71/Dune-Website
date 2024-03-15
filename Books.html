@@ -24,11 +24,11 @@
     <div class="header">
         <div class="nav1">
             <a href="./home.html">Home</a>
-            <a href="./404.html">About Author</a>
+            <a href="./Author.html">About Author</a>
             <a href="">About Universe</a>
         </div>
         <div class="logo">
-            <img src="./img/logo/dune-logo.avif" alt="logo"> 
+          <a href="./home.html"> <img src="./img/logo/dune-logo.avif" alt="logo"> </a>
         </div>
         <div class="nav2">
             <!-- Add Dropdown Menu in Navbar -->
@@ -37,6 +37,7 @@
                   <i class="fa fa-caret-down"></i>  <!-- caret down -->
                 </button>
                 <div class="dropdown-content">
+                  <a href="./Books.html">Books Series</a>
                   <a href="./404.html">The Butlerian Jihad</a>
                   <a href="./404.html">The Corrino-led Imperium</a>
                   <a href="./404.html">The rise of the Atreides</a>
@@ -63,62 +64,165 @@
     </div>
     
     <!-- Main Container -->
-    <div>
+    
+    <div class="position-relative">
         <div class="container my-5">
-            <h1 id="HHeader">Dune Universe Books</h1>
+          <div class="container-fluid" id="main-404">
+            <img src="./img/Books/books.jpeg" class="img-fluid" alt="404 Error">
+          </div>
+            <h1 class="mt-4" id="HHeader">Dune Universe Books</h1>
             <p id="pset">The Dune Universe unfolds across a series of epic novels initially crafted by Frank Herbert and later expanded by Brian Herbert and Kevin J. Anderson. This saga begins with "Dune," where we're introduced to the desert world of Arrakis, the sole source of the universe's most valuable substance, the spice Melange. As the narrative progresses through sequels and prequels, readers dive deep into themes of politics, religion, and power, exploring the complex dynamics of the Atreides family, the indigenous Fremen, and various galactic factions. Each book serves as a window into the intricate ecology of Arrakis, the machinations of imperial politics, and the profound prophecies entwining the fates of characters across generations. The Dune series not only stands as a cornerstone of science fiction literature but also as a profound exploration of human nature and the consequences of our choices.</p>
         </div>
 
         <!-- Books table -->
         <div class="container">
-            <table class="table">
-                <thead>
+            <table class="table table-bordered border-warning">
+                <thead class="table-warning">
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Series</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Author(s)</th>
+                    <th scope="col">Publication Year</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <th scope="row">Original Series</th>
+                    <td>Dune</td>
+                    <td>Frank Herbert</td>
+                    <td>1965</td>
                   </tr>
                   <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <th scope="row"></th>
+                    <td>Dune Messiah</td>
+                    <td>Frank Herbert</td>
+                    <td>1969</td>
                   </tr>
                   <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <th scope="row"></th>
+                    <td>Children of Dune</td>
+                    <td>Frank Herbert</td>
+                    <td>1976</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>God Emperor of Dune</td>
+                    <td>Frank Herbert</td>
+                    <td>1981</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Heretics of Dune</td>
+                    <td>Frank Herbert</td>
+                    <td>1984</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Chapterhouse: Dune</td>
+                    <td>Frank Herbert</td>
+                    <td>1985</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Prelude to Dune</th>
+                    <td>Dune: House Atreides</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>1999</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Dune: House Harkonnen</td>
+                    <td>Frank Herbert</td>
+                    <td>2000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Dune: House Corrino</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2001</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Legends of Dune</th>
+                    <td>Dune: The Butlerian Jihad</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2002</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Dune: The Machine Crusade</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2003</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Dune: The Battle of Corrin</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2004</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Heroes of Dune</th>
+                    <td>Paul of Dune</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2008</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>The Winds of Dune</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2009</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Great Schools of Dune</th>
+                    <td>Sisterhood of Dune</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2012</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Mentats of Dune</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2014</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Navigators of Dune</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2016</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Sequels</th>
+                    <td>Hunters of Dune</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2006</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Sandworms of Dune</td>
+                    <td>Brian Herbert & Kevin J. Anderson</td>
+                    <td>2007</td>
                   </tr>
                 </tbody>
               </table>
         </div>
 
-    </div>
-    <!-- Footer -->
-    <footer>
-    <div class="footer fixed-bottom" >
+      <div class="container my-5">
+          <p id="pset">This table provides a quick reference to the expansive literary world of the Dune Universe, showcasing the rich tapestry of stories that have captivated readers for decades. Whether exploring the original series that started it all, delving into the histories provided by the prequels, or continuing the saga with the sequels, there's a wealth of material for fans and newcomers alike.
+          </p>
+      </div>
+    <!-- Footer -->   
+      <div class="footer" style="width:100%">
             <div class="container text-center my-3">
                 <div class="row">
                     <div class="col">
                     <nav class="nav flex-column">                        
-                          <a class="nav-link active" aria-current="page" href="./404.html">Home</a>
+                          <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
                           <a class="nav-link" href="./404.html">About Dune</a>
-                          <a class="nav-link" href="./404.html">About Author</a>
+                          <a class="nav-link" href="./Author.html">About Author</a>
                       </nav>
                     </div>
                     <div class="col">
                         <nav class="nav flex-column">
-                                <a class="nav-link" href="./404.html">Movies</a>
-                                <a class="nav-link" href="./404.html">Shows</a>
+                                <a class="nav-link" href="./Books.html">Books</a>
+                               <a class="nav-link" href="./404.html">Movies&Shows</a>
                                 <a class="nav-link" href="./404.html">Games</a>
                           </nav>
                     </div>
@@ -129,10 +233,10 @@
                                 <a class="nav-link" href="./404.html">Contact</a>
                           </nav>
                     </div>
-                </div>
-            </div>
-    </div>
-   </footer>
+                  </div>
+              </div>  
+       </div>
+   </div>
     <!-- End Footer -->
 </body>
 </html>

@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
     <title>Dune Universe</title>
+
 </head>
 <body class="bg-black">
     <!-- NavBar -->
@@ -36,7 +37,7 @@
                   <i class="fa fa-caret-down"></i>  <!-- caret down -->
                 </button>
                 <div class="dropdown-content">
-                  <a href="./Books.html">Books Series</a>
+                <a href="./Books.html">Books Series</a>
                   <a href="./404.html">The Butlerian Jihad</a>
                   <a href="./404.html">The Corrino-led Imperium</a>
                   <a href="./404.html">The rise of the Atreides</a>
@@ -52,21 +53,37 @@
     </div>
     <!-- End NavBar -->
 
+    <!-- Breadcrumbs -->
+    <div class="container breadcrumbs mt-3 border-bottom border-top pt-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./home.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page" id="bc-active">About Author</li>
+            </ol>
+        </nav>
+    </div>
     
     <!-- Main Container -->
     <div>
-        <div class="container-fluid" id="main-404">
-            <img src="./img/404/dune-404.jpeg" class="img-fluid" alt="404 Error">
+        <div class="container">
+        <div class="row my-5">
+            <div class="col-7 text-left">
+                <h1 id="HHeader">Frank Herbert</h1>
+                <p id="pset">Frank Herbert (1920-1986) was an American science fiction author best known for creating the Dune Universe, one of the most beloved and enduring epics in the  genre. Born in Tacoma, Washington, Herbert was not only a writer but also a journalist, photographer, and ecologist, which contributed to the richly detailed worlds and complex societal and environmental themes present in his work.</p>
+
+                <p id="pset">"Dune," published in 1965, is Herbert's masterpiece, winning the <span>Hugo Award in 1966</span> and sharing the inaugural ,<span>Nebula Award for Best Novel</span>. Set in the distant future amidst a feudal interstellar society, the novel explores themes of politics, religion, and power through the lens of the desert planet Arrakis and its significance as the only source of the spice Melange, the most valuable substance in the universe.</p>
+                    
+                <p id="pset">Herbert's fascination with ecology, human psychology, and the intricacies of leadership and governance is evident throughout the Dune series, which consists of six novels written by him. The saga has continued to expand posthumously with works by his son Brian Herbert, in collaboration with Kevin J. Anderson, further exploring the universe's lore and history. </p>
+                    
+                <p id="pset">Frank Herbert's influence extends beyond literature into film, television, and games, making the Dune Universe a seminal part of popular culture. His work has been praised for its visionary ideas, complex characters, and thought-provoking examination of the human condition, securing his legacy as one of the great storytellers in science fiction.</p>
+            </div>
+            <div class="col mx-4">
+                <div class="sticky-top">
+                    <img src="./img/Author/Frank-Herbert-September-27-1982.jpg" class="img-fluid rounded " alt="Frank Herbert">
+                </div>
+            </div>
         </div>
-        <div class="bghover">
-            <h1>404 ERROR</h1>
-            <p>Whoops! You've wandered into uncharted dunes. The page you're looking for has vanished into the desert. Don't worry, this is just a small detour in your journey.</p>
-            <p>Head back to our <a href="/home.html">homepage</a> to find your way.</p>
-            <p>More pages for exploring:</p>
-            <a href="http://"></a>
-            <a href="http://"></a>
-            <a href="http://"></a>
-        </div>  
+    </div>
     <!-- Footer -->
     <footer>
     <div class="footer">
@@ -74,7 +91,7 @@
                 <div class="row">
                     <div class="col">
                     <nav class="nav flex-column">                        
-                          <a class="nav-link active" aria-current="page" href="./404.html">Home</a>
+                          <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
                           <a class="nav-link" href="./404.html">About Dune</a>
                           <a class="nav-link" href="./Author.html">About Author</a>
                       </nav>
