@@ -58,7 +58,7 @@ The Bootstrap grid has been customized to accommodate specific layout requiremen
 |----------|----------|
 | /home | Overview, latest updates, registration form |
 | /movies | Movie listings, dropdown menu for film selection, detailed movie information | 
-| /books  | 	Book series overview, dropdown menu for book selection, detailed book information | 
-| /login  | 	Book series overview, dropdown menu for book selection, detailed book information | 
+| /books  | 	Book series overview, table with all books series| 
+| /register  | 	Fields for a username, email address, password, password confirmation, newsletter preferences, favorite books, and a submit button, service agreement | 
 | /author |	Author biography, list of works, personal anecdotes |
 | /404Error	| Custom error message in Dune style, navigation aid back to the home page |
