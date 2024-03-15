@@ -10,7 +10,7 @@ Welcome to the GitHub repository for the Dune Portal Website, a comprehensive di
 
 **/home** - The landing page with an overview and latest updates.
 
-**/movies** - Detailed information on Dune adaptations in film and TV.
+**/movies** - Information on Dune adaptations in film and TV.
 
 **/books** - A comprehensive guide to the Dune literary universe.
 
@@ -34,9 +34,9 @@ contributions.
 
 ***Spice Melange Glow:*** Simulate the mystical glow of the spice Melange with a subtle pulsing effect around headers on the /Movie page. 
 
-***Scale images:*** Increase the size of streaming service icons when hovering over them
+***Scale images:*** Increase the size of streaming service icons when hovering over them.
 
-***Favicon***: A custom favicon that represents the iconic sandworm or spice symbol, adding a recognizable branding touch to browser tabs.
+***Favicon***: A custom favicon that adding a recognizable branding touch to browser tabs.
 
 
 ## Customization Details
@@ -44,11 +44,12 @@ contributions.
 The Bootstrap grid has been customized to accommodate specific layout requirements, ensuring content is displayed optimally across different screen sizes. This customization enhances the default Bootstrap responsiveness, providing a unique visual arrangement of content sections.
 
 ### CSS Animations
-**Sand Ripple Effect:** Applied to background sections for a subtle, dynamic look that evokes the shifting sands of Arrakis.
+**Scale:** Increase the size of streaming service icons when hovering over them
 
-**Spice Glow:** Buttons and links glow softly on hover, mimicking the mesmerizing effect of the spice Melange.
+**Spice Glow:** Headers and other elements glow softly on hover, mimicking the mesmerizing effect of the spice Melange.
 
 ## Implementation Notes
+
 **Flexbox:** Used extensively for layout arrangements, ensuring content is flexible and adapts gracefully to all screen sizes.
 **Dropdown Menu Implementation:** A key feature in the navigation bar, allowing users to easily access content related to the books.
 
@@ -57,8 +58,8 @@ The Bootstrap grid has been customized to accommodate specific layout requiremen
 | Page | Components|
 |----------|----------|
 | /home | Overview, latest updates, registration form |
-| /movies | Movie listings, dropdown menu for film selection, detailed movie information | 
+| /movies | Movie listings, detailed movie information | 
 | /books  | 	Book series overview, table with all books series| 
 | /register  | 	Fields for a username, email address, password, password confirmation, newsletter preferences, favorite books, and a submit button, service agreement | 
-| /author |	Author biography, list of works, personal anecdotes |
+| /author |	Author biography and photo|
 | /404Error	| Custom error message in Dune style, navigation aid back to the home page |
