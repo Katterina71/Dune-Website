@@ -24,19 +24,19 @@ contributions.
 
 ## Key Feateres: ##
 
-***Newsletter Subscription:*** Found on the /home page, enabling visitors to sign up for updates.
+**Newsletter Subscription:** Found on the /home page, enabling visitors to sign up for updates.
 
-***Registration Form:*** On the /register page, asking for user details such as name, email, password, and preferences.
+**Registration Form:** On the /register page, asking for user details such as name, email, password, and preferences.
 
-***Dropdown Menu:*** For easy navigation through the book series, allowing users to select their area of interest directly.
+**Dropdown Menu:** For easy navigation through the book series, allowing users to select their area of interest directly.
 
-***CSS Animations:*** 
+### CSS Animations: ###
 
-***Spice Melange Glow:*** Simulate the mystical glow of the spice Melange with a subtle pulsing effect around headers on the /Movie page. 
+**Spice Melange Glow:** Simulate the mystical glow of the spice Melange with a subtle pulsing effect around headers on the /Movie page. 
 
-***Scale images:*** Increase the size of streaming service icons when hovering over them.
+**Scale images:** Increase the size of streaming service icons when hovering over them.
 
-***Favicon***: A custom favicon that adding a recognizable branding touch to browser tabs.
+**Favicon**: A custom favicon that adding a recognizable branding touch to browser tabs.
 
 
 ## Customization Details
