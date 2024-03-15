@@ -2,7 +2,7 @@
 
 Welcome to the GitHub repository for the Dune Portal Website, a comprehensive digital space dedicated to the sprawling universe of Frank Herbert's Dune. Through this portal, users can explore the vast lore of the Dune series, including detailed information about the books, movies, the author Frank Herbert, and much more.
 
-For more information, visit the [Dune Portal Website](https://duneportalweb.x10.mx/).
+For more information, visit the [Dune Portal Website](https://duneportalweb.x10.mx/home.html).
 
 ## Features
 
