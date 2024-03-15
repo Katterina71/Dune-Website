@@ -1,4 +1,5 @@
 
+
 /* Navbar settings */
 .header {
     height: 50px;
@@ -90,7 +91,6 @@
     color:bisque;
     text-decoration: none;
   }
-  
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -191,9 +191,12 @@
 
 /* Footer */
 .footer {
+  position: absolute;
   height: fit-content; 
+  width:100%;
   display: flex;
   align-content: center;
+  margin-bottom: 0;
   background-color: #1d1b18;
   font-family: "Quicksand", sans-serif;
   font-size: 12px;
@@ -208,6 +211,8 @@
   color: rgb(208, 195, 179);
 }
 
+
+/* 404 error page */
 #main404 {
   position: relative;
 }
@@ -241,17 +246,36 @@
 
 /* Animation on Dune Movie */
 
-.Loading img {
-  width: 250px;
-  height: 50px;
-  transition-property: height;
-  transition-duration: 2s;
-  transition-timing-function: linear;
-  display: block;
+/* Glow to element - Spice Melange Glow */
+@keyframes spice-glow {
+  0%, 100% {
+    text-shadow: 0 0 10px orange, 0 0 20px red;
+  }
+  50% {
+    text-shadow: 0 0 20px orange, 0 0 30px red;
+  }
 }
 
-.Loading img:hover{
-  height: 350px;
+.spice-glow {
+  animation: spice-glow 2s infinite;
+  color: yellow;
+}
 
+
+/* Expanding Spice Vision 3 */
+
+@keyframes spice-vision {
+  from {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  to {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+  }
+}
+
+.spice-vision:hover {
+  animation: spice-vision 0.5s forwards;
 }
 
