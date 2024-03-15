@@ -51,6 +51,7 @@ The Bootstrap grid has been customized to accommodate specific layout requiremen
 ## Implementation Notes
 
 **Flexbox:** Used extensively for layout arrangements, ensuring content is flexible and adapts gracefully to all screen sizes.
+
 **Dropdown Menu Implementation:** A key feature in the navigation bar, allowing users to easily access content related to the books.
 
 ## Pages and Key Components
