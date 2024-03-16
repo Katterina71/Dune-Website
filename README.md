@@ -60,9 +60,9 @@ The Bootstrap grid has been customized to accommodate specific layout requiremen
 
 | Page | Components|
 |----------|----------|
-| /home | Overview, latest updates, registration form |
-| /movies | Movie listings, detailed movie information | 
-| /books  | 	Book series overview, table with all books series| 
-| /register  | 	Fields for a username, email address, password, password confirmation, newsletter preferences, favorite books, and a submit button, service agreement | 
-| /author |	Author biography and photo|
-| /404Error	| Custom error message in Dune style, navigation aid back to the home page |
+| [/home] (https://duneportalweb.x10.mx/home.html)| Overview, latest updates, registration form |
+| [/movies] (https://duneportalweb.x10.mx/movie.html) | Movie listings, detailed movie information | 
+| [/books]  (https://duneportalweb.x10.mx/books.html)| 	Book series overview, table with all books series| 
+| [/register] (https://duneportalweb.x10.mx/register.html) | 	Fields for a username, email address, password, password confirmation, newsletter preferences, favorite books, and a submit button, service agreement | 
+| [/author] (https://duneportalweb.x10.mx/author.html) |	Author biography and photo|
+| [/404Error (https://duneportalweb.x10.mx/404.html)]	| Custom error message in Dune style, navigation aid back to the home page |
