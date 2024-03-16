@@ -22,7 +22,7 @@
     <!-- NavBar -->
     <div class="header">
         <div class="nav1">
-            <a href="./pages/404.html">Home</a>
+            <a href="/html">Home</a>
             <a href="./pages/Author.html">About Author</a>
             <a href="">About Universe</a>
         </div>
@@ -53,10 +53,67 @@
     <!-- End NavBar -->
 
 
+     <!-- NavBar Mobile  -->
+     <div class="header-mobile" >
+        <nav class="navbar navbar-dark  fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./home.html">Dune Portal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dune Portal</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/Author.html">About Author</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/404.html">About Universe</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Books
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="./pages/Books.html">Books Series</a></li>
+                            <li><a class="dropdown-item" href="./pages/404.html">The Butlerian Jihad</a></li>
+                            <li><a class="dropdown-item" href="./pages/404.html">The Corrino-led Imperium</a></li>
+                            <li><a class="dropdown-item" href="./pages/404.html">The rise of the Atreides</a></li>
+                            <li> <a class="dropdown-item" href="./pages/404.html">The reign and fall of the God Emperor</a></li>
+                            <li> <a  class="dropdown-item" href="./pages/404.html">The return from the Scattering</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/Movie.html">Movie</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/404.html">Games</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/404.html">Shows</a>
+                      </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- End NavBar Mobile-->
      
         <!-- Hero Section -->
     <div class="hero">
-        <img src="./img/main/dune-hero-2.webp" alt="hero-img">
+        <div class="masthead" style="background-image: url('./img/Main/dune-hero-2.webp');">
+        </div>
+        
         <div class="registerform">
         <!-- Register Form -->
             <h2>Dune Universe Portal</h2>
@@ -79,24 +136,50 @@
                 <div>
                     <p>Watch Dune Part One on Streaming</p>
                     <div class="streaming">
-                        <div class="row">
-                            <div class="col-md"><a href="default.asp"></a><img src="./img/main/MaxLogo.jpg" class="img" alt="HboMax"></a></div>
-                            <div class="col-md"> <a href="default.asp"></a><img src="./img/main/prime video.jpeg" class="img"alt="PrimeVideo"></a></div>
-                            <div class="col-md"> <a href="default.asp"></a><img src="./img/main/netflix.jpeg" class="img" alt="Netflix"></a></div>     
+                            <a href="default.asp"></a><img src="./img/main/MaxLogo.jpg"  alt="HboMax"></a>
+                             <a href="default.asp"></a><img src="./img/main/prime video.jpeg"  alt="PrimeVideo"></a>
+                            <a href="default.asp"></a><img src="./img/main/netflix.jpeg" alt="Netflix"></a>   
                     </div>
                     </div>
-                </div>
                 <!-- Buy Movie Theatre Tikets -->
                 <div>
                     <p>Find movie theater tickets for <span>Dune Part Two</span></p>
-                    
+                    <div class="d-grid gap-2">
+                        <button class="btn btn--bd-primary" type="button" style="--bs-btn-hover-bg:#f9be86; --bs-btn-border-color:#f9be86; --bs-btn-color:#f9be86;">Find tickets</button>
+                    </div>
+                </div>
+            </div>
+    
+    <!-- Mobile Register Form -->
+    <div class="registerform-mobile">
+        <!-- Register Form -->
+            <h2>Dune Universe Portal</h2>
+            <div class="container mt-4 mx-0 mb-4">
+                <form>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                    </div>
+                    <div class="mb-3">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" >
+                    </div>
+                    <div class="d-grid gap-2 d-md-block">
+                       <button type="submit" class="btn px-4 btn-bd-primary" style="--bs-btn-bg:#e28e2e; --bs-btn-hover-bg:#f9be86;">Log In</button>
+                       <a class="btn btn-primary" href="./pages/Register.html" role="button" style="--bs-btn-bg:#fa8500; --bs-btn-border-color:#f9be86; --bs-btn-hover-bg:#f9be86;">Sigh In</a>
+                       <!-- <button type="button" class="btn px-4 btn-bd-primary" style="--bs-btn-bg:#fa8500; --bs-btn-border-color:#f9be86; --bs-btn-hover-bg:#f9be86;">Sigh In</button> -->
+                    </div>
+                  </form>
+            </div>
+                <!-- Buy Movie Theatre Tikets -->
+                <div>
+                    <p>Find movie theater tickets for <span>Dune Part Two</span></p>
                     <div class="d-grid gap-2">
                         <button class="btn btn--bd-primary" type="button" style="--bs-btn-hover-bg:#f9be86; --bs-btn-border-color:#f9be86; --bs-btn-color:#f9be86;">Find tickets</button>
                     </div>
                 </div>
             </div>
     </div>
-    
+</div>
+    <!-- End Mobile Register Form -->
     <!-- Main Container -->
     <div>
         <!-- Intro -->
