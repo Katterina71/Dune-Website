@@ -115,7 +115,7 @@
     font-family: "Quicksand", sans-serif;
     position: absolute;
     top:10%;
-    bottom:15%;
+    bottom:10%;
     right: 10%;
     width: fit-content;  /*box will use the available space*/
     height: fit-content; /*box will use the available space*/
@@ -139,10 +139,11 @@
 }
 .streaming img {
     object-fit: fill;
-    width: 8vw;
-    height:4vw;
+    /* width: 8vw;
+    height:4vw; */
+    width: 150px;
+    height: 75px;
     border-radius: 10px;
-    padding:2px; 
     transition-property: width, height;  /* Scale Animation */
     transition-duration: 1s;   /* Scale Animation */
 }
