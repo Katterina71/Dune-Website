@@ -4,27 +4,40 @@ Welcome to the GitHub repository for the Dune Portal Website, a comprehensive di
 
 For more information, visit the [Dune Portal Website](https://duneportalweb.x10.mx/home.html).
 
+## Technology Used
+
+This website was created with a focus on the following technologies:
+
+- **HTML:** The backbone of the website, structuring the content and layout.
+- **CSS:** Used to style the website, ensuring a visually appealing and consistent user experience across pages.
+- **Bootstrap:** Leveraged to make the website responsive and to streamline the design process with its pre-built components and grid system.
+
+## Goal of the Project
+
+The primary goal of this project was to learn HTML, CSS, and Bootstrap. Through the development of the Dune Portal Website, I aimed to gain a practical understanding of these technologies, focusing on how they can be applied to create responsive and user-friendly web pages.
+
+
 ## Features
 
 **Responsive Design:** Utilizing Flexbox and customized Bootstrap Grid for a seamless experience across devices.
 
 **Dynamic Content:** Engaging pages dedicated to different aspects of the Dune Universe: 
 
-**/home** - The landing page with an overview and latest updates.
+[**/home**](https://duneportalweb.x10.mx/home.html) - The landing page with an overview and latest updates.
 
-**/movies** - Information on Dune adaptations in film and TV.
+[**/movies**](https://duneportalweb.x10.mx/pages/Movie.html) - Information on Dune adaptations in film and TV.
 
-**/books** - A comprehensive guide to the Dune literary universe.
+[**/books**](https://duneportalweb.x10.mx/pages/Books.html) - A comprehensive guide to the Dune literary universe.
 
-**/register** - A registration page for new users to create accounts.
+[**/register**](https://duneportalweb.x10.mx/pages/Register.html) - A registration page for new users to create accounts.
 
-**/author** - A tribute to Frank Herbert, including his biography and 
+[**/author**](https://duneportalweb.x10.mx/pages/Author.html) - A tribute to Frank Herbert, including his biography and 
 contributions.
 
-**/404error** - A custom error page with a Dune-inspired theme.
+[**/404error**](https://duneportalweb.x10.mx/pages/404.html) - A custom error page with a Dune-inspired theme.
 
 
-## Key Feateres: ##
+## Key Features: ##
 
 **Newsletter Subscription:** Found on the /home page, enabling visitors to sign up for updates.
 
