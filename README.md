@@ -73,7 +73,7 @@ The Bootstrap grid has been customized to accommodate specific layout requiremen
 
 | Page | Components|
 |----------|----------|
-| [/home](https://duneportalweb.x10.mx/home.html)| Overview, latest updates, registration form |
+| [/home](https://duneportalweb.x10.mx/index.html)| Overview, latest updates, registration form |
 | [/movies](https://duneportalweb.x10.mx/pages/Movie.html) | Movie listings, detailed movie information | 
 | [/books](https://duneportalweb.x10.mx/pages/Books.html)| 	Book series overview, table with all books series| 
 | [/register](https://duneportalweb.x10.mx/pages/Register.html) | 	Fields for a username, email address, password, password confirmation, newsletter preferences, favorite books, and a submit button, service agreement | 
