@@ -23,7 +23,7 @@ The primary goal of this project was to learn HTML, CSS, and Bootstrap. Through 
 
 **Dynamic Content:** Engaging pages dedicated to different aspects of the Dune Universe: 
 
-[**/home**](https://duneportalweb.x10.mx/home.html) - The landing page with an overview and latest updates.
+[**/index**](https://duneportalweb.x10.mx/index.html) - The landing page with an overview and latest updates.
 
 [**/movies**](https://duneportalweb.x10.mx/pages/Movie.html) - Information on Dune adaptations in film and TV.
 
